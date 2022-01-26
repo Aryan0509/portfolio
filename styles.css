@@ -146,6 +146,9 @@ button{
     display: flex;
 
 }
+button:hover{
+    background-color: rgb(224, 141, 63);
+}
 .socials{
     position: relative;
     left:500px;
