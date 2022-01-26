@@ -2,7 +2,7 @@ body{
     background-color: rgba(174, 227, 243, 0.973);
     font-family: 'poppins';
     font-weight: 200;
-    width: 1000px;
+    width: 800px;
 }
 nav{
     background-color: rgba(174, 227, 243, 0.973);
@@ -12,7 +12,7 @@ nav{
     margin-top: 0;
     padding-top: 0;
     position: fixed;
-    width: 1500px;
+    width: 1400px;
     top: 0px;
     /* display: flex;
      */
@@ -31,11 +31,11 @@ nav li{
     font-size: 1.5rem;
     
 }
-nav h1 {
+nav h1,nav h1 a {
     padding-top: 20px;
     padding-left: 40px;
     position: relative;
-    bottom: 30px;
+    bottom: 20px;
     font-size: 2rem;
 }
 
@@ -45,6 +45,7 @@ nav h1 {
 }
 .name:hover{
     color: rgb(151, 146, 137);
+    border-bottom: 3px solid red;
     
 }
 nav ul{
@@ -56,7 +57,7 @@ nav ul{
 nav li a{
     text-decoration: none;
     color: rgb(19, 1, 1);
-    font-weight: 700;
+    font-weight: 700;   
     border-bottom: 3px solid transparent;
     display: block;
 }
@@ -73,7 +74,7 @@ nav li a:hover{
 section{
     border:rgba(39, 34, 35, 0.973);
     /* border-width: 5px; */
-    width: 1000px;
+    width: 800px;
 }
 .intro{
 
@@ -165,26 +166,30 @@ button{
     text-align: center;
     padding: 70px;
     padding-top: 200px;
-    width: 1500px
+    width: 1370px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
    
 }
 .hobbies h1{
     font-size: 3rem;
     position: relative;
     bottom: 100px;
-    right: 70px;
+    left: 0px;
 }
 .hobbie-cards{
     /* border: solid 1px; */
     display: flex;
     justify-content: space-around;
     position: relative;
-    bottom: 20px;
-    right: 70px;
+    bottom: 40px;
+    right: 0
 }
 .hobbie-card{
     background-color: rgb(182, 225, 236);
     padding: 60px;
+    margin: 20px;
 }
 
 .skills{
@@ -192,7 +197,8 @@ button{
     background-color: rgba(189, 233, 247, 0.973);
     height: 750px;
     padding-top: 10px;
-    width: 1550px;
+    width: 1510px;
+    /* text-align: center; */
 }
 .skills h1{
     font-size: 3rem;
@@ -219,7 +225,7 @@ hr{
 } */
 
 .skill{
-    padding-left: 150px
+    padding-left: 300px
 }
 .skill p{
     font-size: 1.2rem;
