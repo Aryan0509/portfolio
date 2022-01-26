@@ -12,7 +12,7 @@ nav{
     margin-top: 0;
     padding-top: 0;
     position: fixed;
-    width: 1400px;
+    width: 1500px;
     top: 0px;
     /* display: flex;
      */
@@ -42,6 +42,7 @@ nav h1,nav h1 a {
 .name{
     text-decoration: none;
     color: rgb(236, 115, 34);
+    
 }
 .name:hover{
     color: black;
@@ -61,8 +62,8 @@ nav li a{
     display: block;
 }
 nav li a:hover{
-    color: black;color: rgb(216, 149, 25);
-    border-bottom: 3px solid red;
+    color: rgb(216, 149, 25);
+    border-bottom: 3px dotted red;
 }
 /* nav li a:active{
     border-bottom: 3px solid red;
@@ -334,4 +335,8 @@ hr{
     width: 90%;
     height: 10px;
     border-radius: 10px;
+  }
+  .test{
+    color: rgb(216, 149, 25);
+    border-bottom: 3px dotted red;
   }
